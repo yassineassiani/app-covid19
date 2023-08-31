@@ -1,0 +1,25 @@
+.App1 {
+  text-align: center;
+  display: flex;
+  height: 100rem;
+  
+}
+.hh {
+  width: 100%;
+  height: max-content;
+  background-color: #eeeeee;
+  padding: 20px 5%;
+  flex-grow: 1;
+  margin-left: 400px;
+  overflow: auto;
+}
+.Search {
+  margin: 20px;
+  width: 350px;
+  flex-shrink: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow-y: auto;
+}

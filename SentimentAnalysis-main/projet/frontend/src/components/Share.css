@@ -1,0 +1,112 @@
+.Share {
+    
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 0px #00000054;
+    background-color: white;
+   
+}
+.container {
+    padding: 10px;
+}
+.top {
+    display: flex;
+    align-items: center;
+    margin: 20px 10px 10px 10px;
+}
+.top img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.top input {
+    border: none;
+    width: 90%;
+    outline: none;
+    height: 70px;
+}
+hr.ligne {
+    background-color: #bbc3ca;
+    height: 1px;
+}
+.icon {
+    margin-right: 3px;
+    cursor: pointer;
+}
+.op {
+    display: flex;
+    align-items: center;
+    margin: 10px 5px;
+    font-weight: 600;
+}
+.icon:hover
+{transform: scale(1.25);}
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.option {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.op span {
+    font-size: 14px;
+}
+.btn {
+    margin-right: 7%;
+}
+.btn:hover
+{transform: scale(1.07);}
+.btn input {
+    width: 70px;
+    height: 30px;
+    background-color: #40b2e5;
+    border: navajowhite;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.postimage {
+    padding: 10px;
+    position: relative;
+}
+.postvideo {
+    padding: 10px;
+    position: relative;
+}
+
+.postimage img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+.postvideo video {
+    width: 100%;
+    max-height: 500px;
+   
+}
+.postimage svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+    right: 0;
+}
+.picker {
+    position: absolute;
+    height: 370px;
+    overflow: hidden;
+}
+.postvideo svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root 
+{
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+    right: 0;
+}

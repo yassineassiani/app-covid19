@@ -1,0 +1,190 @@
+.post {
+    box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+    border-radius: 15px;
+    margin: 15px 0px;
+    padding: 1px;
+    background-color: white;
+}
+.user {
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+    justify-content: space-between;
+}
+.user1 {
+    display: flex;
+}
+      
+
+.user img {
+    height: 40px;
+    width: 40px;
+   
+}
+.content p {
+    font-size: 14px;
+    font-family: system-ui;
+    word-break: break-word;
+    text-align: left;
+    margin: 10px;
+}
+h3.name {
+    margin: 10px 20px;
+    font-family: system-ui;
+    font-size: large;
+}
+.content img {
+    width: 95%;
+    max-height: 350px;
+    object-fit: cover;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+
+.content video {
+  width: 95%;
+  max-height: 350px;
+  object-fit: cover;
+  margin: 10px 0px;
+  border-radius: 5px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+}
+.info svg{
+    height: 40px;
+    width: 30px;
+}
+ svg:hover
+{transform: scale(1.07);}
+
+.info h4 {
+    font-weight: 500;
+    font-family: serif;
+    color: #615e5e;
+}
+.commentstrait {
+  height: 1px;
+  background-color: #9E9E9E;
+  margin: 10px 0px;
+}
+.commentscontent {
+  padding: 1px;
+  background-color: #EEEEEE;
+  border-radius: 50px;
+  margin: 20px 10px;
+}
+.entete {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.entete svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+  margin-right: 10px;
+}
+.user{
+  display: flex;
+}
+.commentscontent img {
+  width: 30px;
+  height: 30px;
+  margin: 10px 10px 10px 10px;
+}
+.entete h4 {
+  margin: 0px;
+  font-size: 16px;
+  font-family: math;
+}
+.commentscontent p {
+  margin: 0px 20px 20px 50px;
+  height: auto;
+  text-align: initial;
+  font-size: 12;
+  font-size: 15px;
+  font-family: math;
+  word-break: break-all;
+}
+.commentsform input[type="text"] {
+  width: 80%;
+  margin-right: 1px;
+  height: 25px;
+  padding: 5px 10px;
+  border-radius: 18px;
+  border: 1px solid #9E9E9E;
+}
+.commentsform input[type="submit"] {
+  width: 75px;
+  height: 37px;
+  margin: 3px ;
+  background-color: #40b2e5;
+  border: navajowhite;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  
+}
+
+.dropdown .dropdown-menu {
+  
+  position: absolute;
+  top: -22px;
+  left: -130px;
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: #fefefe;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown .dropdown-menu li {
+  padding: 8px 12px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+    font-family: math;
+    font-weight: 550;
+    display: flex;
+    font-size: medium;
+    align-items: center;
+    box-shadow: 3px -4px 14px 0px rgba(56, 56, 56, 0.14);
+}
+
+.dropdown .dropdown-menu li:hover {
+  background-color: #f5f5f5;
+  transform: scale(1.05);
+}
+
+.dropdown .dropdown-toggle {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown .dropdown-toggle:focus {
+  outline: none;
+}
+
+.dropdown .dropdown-toggle .icon {
+  margin-left: 4px;
+  vertical-align: middle;
+}
+
+li svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+  width: 23px;
+  margin-right: 10px;
+}
+.entete .user svg{
+  margin: 10px;
+    width: 23px;
+    color: #1E88E5;
+}
